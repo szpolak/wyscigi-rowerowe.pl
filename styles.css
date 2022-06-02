@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #00ED98;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 69px;
+    margin-top: auto;   
+   
+}
+
+@media screen and (max-width: 600px) {
+     .nav{
+      font-size: 25px;}}
