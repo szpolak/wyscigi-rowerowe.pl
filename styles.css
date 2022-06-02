@@ -23,6 +23,5 @@
 @media screen and (max-width: 600px) {
      .nav{
       font-size: 25px;}
-    .map{
-        max-width: 100%;
-    }}
+
+    }
