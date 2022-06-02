@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wyscigi-rowerowe.pl</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
 </head>
 <nav>
     <div class="nav">
@@ -13,6 +14,25 @@
     </div>
 </nav>
 <body>
+    
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([ 19.145136, 51.919438]),
+          zoom: 6.5
+        })
+      });
+    </script>
+    <div>
+
+    </div>
     
 </body>
 </html>
