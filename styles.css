@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: ;
+    
     
 }
 .nav{
@@ -21,7 +21,7 @@
     background-color: #EFEFEF;  ;
 }
 .map{
-    width: 1297px;
+    width: 1290px;
     height: 771px;
     
     display: inline-block;
@@ -38,7 +38,6 @@
 #race-box1{
     width: 400px;
     height: 100px;
-    background-color: ;
     display: flex;
     margin-top: 8%;
     margin-left: auto;
@@ -48,14 +47,12 @@
 .title {
     width: 400px;
     height: 36px;
-    background-color: ;
     font-size: 38px;
     text-align: center;
 }
 .lokalizacja {
     width: 400px;
     height: 33px;
-    background-color: ;
     font-size: 28px;
     text-align: center;
     
@@ -63,7 +60,6 @@
 .dataityp {
     width: 400px;
     height: 33px;
-    background-color: ;
     font-size: 20px;
     text-align: center;
 }
