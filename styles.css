@@ -35,6 +35,30 @@
      overflow: hidden;
      overflow-y: scroll;
 }
+
+#myInput , #myInput1{
+    margin-top: 5px;
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 45%; /* Full-width */
+    font-size: 15px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    justify-content: center;
+  }
+
+#borderline{
+    width: 400px;
+    height: 130px;
+    border-style: solid;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-radius: 0px;
+    border-color:#112B3C ;
+}
 #race-box1{
     width: 400px;
     height: 100px;
@@ -47,20 +71,20 @@
 .title {
     width: 400px;
     height: 36px;
-    font-size: 38px;
+    font-size: 28px;
     text-align: center;
 }
 .lokalizacja {
     width: 400px;
     height: 33px;
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
     
 }
 .dataityp {
     width: 400px;
     height: 33px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 #buttonracebox{
@@ -68,8 +92,8 @@
     height: 20px;
     justify-self: center;
     border-radius: 100px;
-    border-color: black;
-    background: black;   
+    border-color: #112B3C;
+    background: #112B3C;   
 }
 #buttonwrapper{
     display: flex;
@@ -96,11 +120,15 @@ a{
     background-color: #112B3C;
 }
 
-li{
+li ,ul{
     list-style: none;
-    position: fixed;
+    vertical-align: top;
     display: inline-block;
+    
 }
+
+
+
 @media screen and (max-width: 600px) {
      .nav{
       font-size: 25px;}
